@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Colazione – Casa dei Colli (Moruzzo)</title>
+  <meta name="description" content="Colazione a Casa dei Colli: semplice, buona, con opzioni su richiesta." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="index.html"><span class="logo"></span><span>Casa dei Colli • Moruzzo</span></a>
+    <nav class="navlinks">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="camere.html">Camere</a>
+      <a data-nav href="colazione.html">Colazione</a>
+      <a data-nav href="dintorni.html">Dintorni</a>
+      <a data-nav href="contatti.html">Contatti</a>
+    </nav>
+    <div class="cta">
+      <a class="btn" href="tel:+393331112222">Chiama</a>
+      <a class="btn primary" href="contatti.html">Prenota</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="heroCard">
+      <div class="heroMedia">
+        <span class="badge">Colazione inclusa</span>
+        <img alt="Colazione" src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1800&q=70" />
+      </div>
+      <div class="heroBody">
+        <div class="kicker">Inizia bene la giornata</div>
+        <h1>Colazione semplice.<br>Buona davvero.</h1>
+        <p class="lead">
+          Caffè, tè, succhi, pane e confetture, qualcosa di dolce.
+          Se preferisci salato o hai intolleranze, ci organizziamo.
+        </p>
+        <div class="heroActions">
+          <a class="btn primary" href="contatti.html">Avvisa esigenze alimentari</a>
+          <a class="btn" href="camere.html">Vedi camere</a>
+        </div>
+      </div>
+    </div>
+
+    <aside class="sideCard">
+      <h3>Orari</h3>
+      <div class="pills">
+        <span class="pill">07:30 – 10:00</span>
+        <span class="pill">Su richiesta</span>
+      </div>
+      <small>
+        Qui poi inserisci: “colazione in sala / in terrazza / self service”, ecc.
+      </small>
+    </aside>
+  </section>
+
+  <div class="sectionTitle">
+    <h2>Cosa trovi</h2>
+    <p>Lista esempio (personalizzabile).</p>
+  </div>
+
+  <section class="grid">
+    <article class="card">
+      <div class="media"><img alt="Dolci" src="https://images.unsplash.com/photo-1541976076758-347942db1975?auto=format&fit=crop&w=1400&q=70" /></div>
+      <div class="body"><h3>Dolce</h3><p>Croissant, biscotti, torte (quando disponibili).</p></div>
+    </article>
+    <article class="card">
+      <div class="media"><img alt="Caffè" src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1400&q=70" /></div>
+      <div class="body"><h3>Caffè & bevande</h3><p>Espresso, cappuccino, tè, tisane, succhi.</p></div>
+    </article>
+    <article class="card">
+      <div class="media"><img alt="Pane e marmellate" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1400&q=70" /></div>
+      <div class="body"><h3>Pane & confetture</h3><p>Pane, burro, confetture, miele.</p></div>
+    </article>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <small>© <span id="y"></span> Casa dei Colli – Moruzzo • <a href="contatti.html">Contatti</a></small>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
