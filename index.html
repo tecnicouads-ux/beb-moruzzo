@@ -3,150 +3,184 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Casa dei Colli – B&B a Moruzzo</title>
-  <meta name="description" content="Casa dei Colli: B&B a Moruzzo. Camere accoglienti, natura, silenzio e colazione genuina. Prenota direttamente via WhatsApp o email." />
-  <link rel="stylesheet" href="assets/style.css" />
+  <title>Casa Moruzzo – B&B</title>
+  <meta name="description" content="B&B a Moruzzo: natura, tranquillità e camere curate. Prenota direttamente al miglior prezzo." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <div class="nav">
-    <a class="brand" href="index.html" aria-label="Home">
-      <span class="logo" aria-hidden="true"></span>
-      <span>Casa dei Colli • Moruzzo</span>
+
+<!-- Topbar (lingua + telefono + prenota) -->
+<div class="topbar">
+  <div class="inner">
+    <div class="lang">
+      <a class="active" href="index.html">IT</a>
+      <a href="index.html">EN</a>
+    </div>
+    <div class="phone">
+      <a href="tel:+393331112222">+39 333 111 2222</a>
+    </div>
+    <a class="book" href="contatti.html">Prenota</a>
+  </div>
+</div>
+
+<!-- Header con menu -->
+<header class="header">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      Casa Moruzzo
+      <small>B&B • Moruzzo (UD)</small>
     </a>
 
-    <nav class="navlinks" aria-label="Menu">
+    <nav class="nav" aria-label="Menu">
       <a data-nav href="index.html">Home</a>
       <a data-nav href="camere.html">Camere</a>
       <a data-nav href="colazione.html">Colazione</a>
       <a data-nav href="dintorni.html">Dintorni</a>
       <a data-nav href="contatti.html">Contatti</a>
     </nav>
-
-    <div class="cta">
-      <a class="btn" href="tel:+393331112222">Chiama</a>
-      <a class="btn primary" href="https://wa.me/393331112222?text=Ciao%21%20Vorrei%20info%20su%20disponibilit%C3%A0%20a%20Moruzzo." target="_blank" rel="noopener">WhatsApp</a>
-    </div>
   </div>
 </header>
 
-<main class="wrap">
-  <section class="hero">
-    <div class="heroCard">
-      <div class="heroMedia">
-        <span class="badge">B&B a Moruzzo • Colli del Friuli</span>
-        <img alt="Vista collinare" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1800&q=70" />
+<!-- Hero full width -->
+<section class="hero">
+  <img class="bg" alt="Moruzzo e colline" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=2400&q=80">
+  <div class="content">
+    <div class="upper">Benvenuti</div>
+    <div class="hr"></div>
+    <h1>Un soggiorno lento<br>tra colline e silenzio.</h1>
+    <p>
+      A Moruzzo, a pochi minuti da Udine: camere luminose, atmosfera di casa,
+      e una colazione semplice e genuina.
+    </p>
+    <div class="actions">
+      <a class="btn primary" href="contatti.html">Scopri disponibilità</a>
+      <a class="btn" href="camere.html">Scopri</a>
+    </div>
+  </div>
+</section>
+
+<!-- Sezione “story” (come Bedpiuart: testo + discover) -->
+<section class="section">
+  <div class="container">
+    <div class="title">
+      <div class="upper">Una storia da raccontare</div>
+      <div class="hr"></div>
+      <h2>Un B&B piccolo, curato, autentico.</h2>
+      <p>
+        Un’ospitalità semplice, spazi puliti e materiali naturali: l’idea è farti
+        stare bene, senza fronzoli, con il comfort giusto.
+      </p>
+    </div>
+
+    <div class="sep"></div>
+
+    <div class="split">
+      <div class="cardImg">
+        <img alt="Interno luminoso" src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=1800&q=80">
       </div>
-      <div class="heroBody">
-        <div class="kicker">Benvenuto a Casa dei Colli</div>
-        <h1>Silenzio, natura e comfort.<br>Il tuo rifugio a Moruzzo.</h1>
-        <p class="lead">
-          Una casa curata e luminosa, camere accoglienti e un ritmo lento. Ideale per staccare,
-          lavorare in tranquillità o partire alla scoperta del Friuli.
+      <div class="copy">
+        <h3>Atmosfera di casa</h3>
+        <p>
+          Perfetto per weekend, lavoro in tranquillità, oppure come base per esplorare
+          il Friuli. Check-in flessibile su richiesta.
         </p>
-        <div class="heroActions">
-          <a class="btn primary" href="contatti.html">Richiedi disponibilità</a>
-          <a class="btn" href="camere.html">Vedi camere</a>
-          <a class="btn" href="dintorni.html">Cosa fare nei dintorni</a>
+        <div class="miniActions">
+          <a class="btn dark" href="contatti.html">Prenota</a>
+          <a class="btn ghost" href="dintorni.html">Scopri di più</a>
         </div>
       </div>
     </div>
-
-    <aside class="sideCard">
-      <h3>In breve</h3>
-      <div class="pills">
-        <span class="pill">Check-in flessibile</span>
-        <span class="pill">Wi-Fi</span>
-        <span class="pill">Parcheggio</span>
-        <span class="pill">Camere luminose</span>
-        <span class="pill">Colazione “genuina”</span>
-        <span class="pill">Tra natura e Udine</span>
-      </div>
-
-      <div class="notice">
-        <strong>Nota:</strong> testi, prezzi e contatti sono “a caso”.  
-        Cambi tutto in 2 minuti (telefono, email, indirizzo, foto).
-      </div>
-
-      <div class="hr"></div>
-
-      <small>
-        Contatto rapido: <a class="btn" style="padding:10px 12px" href="mailto:info@casadeicolli-moruzzo.it">info@casadeicolli-moruzzo.it</a>
-      </small>
-    </aside>
-  </section>
-
-  <div class="sectionTitle">
-    <h2>Perché sceglierci</h2>
-    <p>Tre cose semplici che fanno la differenza.</p>
   </div>
+</section>
 
-  <section class="grid" aria-label="Punti di forza">
-    <article class="card">
-      <div class="media">
-        <img alt="Interno luminoso" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=70" />
-      </div>
-      <div class="body">
-        <h3>Atmosfera “di casa”</h3>
-        <p>Spazi puliti, essenziali e luminosi. Perfetti anche se preferisci un ambiente minimal.</p>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="media">
-        <img alt="Letto e camera" src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1400&q=70" />
-      </div>
-      <div class="body">
-        <h3>Riposo vero</h3>
-        <p>Camere tranquille, materassi comodi e dettagli pensati per dormire bene.</p>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="media">
-        <img alt="Colazione" src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1400&q=70" />
-      </div>
-      <div class="body">
-        <h3>Colazione genuina</h3>
-        <p>Caffè, cose semplici e buone. Se hai esigenze alimentari, ce lo dici prima.</p>
-      </div>
-    </article>
-  </section>
-
-  <div class="sectionTitle">
-    <h2>Uno sguardo alla casa</h2>
-    <p>Foto “placeholder” (anche stanze vuote), poi metti le tue reali.</p>
-  </div>
-
-  <section class="gallery" aria-label="Gallery">
-    <div class="gimg g1"><img alt="Esterno casa" src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=70" /></div>
-    <div class="gimg g2"><img alt="Sala / interno" src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=1600&q=70" /></div>
-    <div class="gimg g3"><img alt="Corridoio" src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1400&q=70" /></div>
-    <div class="gimg g4"><img alt="Camera semplice" src="https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1400&q=70" /></div>
-    <div class="gimg g5"><img alt="Dettaglio interno" src="https://images.unsplash.com/photo-1502005097973-6a7082348e28?auto=format&fit=crop&w=1400&q=70" /></div>
-  </section>
-</main>
-
-<footer class="wrap footer">
-  <div class="footerGrid">
-    <div>
-      <strong>Casa dei Colli</strong><br>
-      B&B a Moruzzo (UD) • Friuli Venezia Giulia<br>
-      <small>Indirizzo: Via (da inserire) • Moruzzo</small>
+<!-- Sezione camere in griglia (come “seleziona la camera”) -->
+<section class="section tight">
+  <div class="container">
+    <div class="title">
+      <div class="upper">Camere</div>
       <div class="hr"></div>
-      <small>Tel: <a href="tel:+393331112222">+39 333 111 2222</a> • Email: <a href="mailto:info@casadeicolli-moruzzo.it">info@casadeicolli-moruzzo.it</a></small>
+      <h2>Scegli la camera che fa per te</h2>
+      <p>Tre soluzioni tipo. Poi le rinomini e metti foto reali.</p>
     </div>
-    <div>
-      <small>
-        Check-in: 15:00–20:00 (flessibile su richiesta) • Check-out: entro 10:30<br>
-        <br>
-        © <span id="y"></span> Casa dei Colli – Moruzzo
-      </small>
+
+    <div class="grid">
+      <article class="room">
+        <div class="thumb">
+          <img alt="Camera 1" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1800&q=80">
+        </div>
+        <div class="body">
+          <h3>Matrimoniale</h3>
+          <div class="meta">2 persone • bagno privato • Wi-Fi</div>
+          <div class="miniActions">
+            <a class="btn dark" href="camere.html">Scopri</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="room">
+        <div class="thumb">
+          <img alt="Camera 2" src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1800&q=80">
+        </div>
+        <div class="body">
+          <h3>Doppia / Family</h3>
+          <div class="meta">2–3 persone • parcheggio • silenzio</div>
+          <div class="miniActions">
+            <a class="btn dark" href="camere.html">Scopri</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="room">
+        <div class="thumb">
+          <img alt="Camera 3" src="https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1800&q=80">
+        </div>
+        <div class="body">
+          <h3>Tripla</h3>
+          <div class="meta">3 persone • spazio extra • vista</div>
+          <div class="miniActions">
+            <a class="btn dark" href="camere.html">Scopri</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="center" style="margin-top:18px">
+      <a class="btn ghost" href="camere.html">Vedi tutte le camere</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA finale -->
+<section class="section">
+  <div class="container center">
+    <div class="upper">Moruzzo • Friuli</div>
+    <div class="hr"></div>
+    <h2 style="margin:0">Prenota al miglior prezzo</h2>
+    <p class="muted" style="max-width:700px;margin:10px auto 0">
+      Contattaci direttamente: risposta rapida via WhatsApp o email.
+    </p>
+    <div class="actions" style="margin-top:18px">
+      <a class="btn dark" href="contatti.html">Contatti</a>
+      <a class="btn ghost" href="tel:+393331112222">Chiama</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="inner">
+      <div>
+        <strong>Casa Moruzzo</strong><br>
+        Moruzzo (UD) • Friuli Venezia Giulia
+      </div>
+      <div>
+        <a href="tel:+393331112222">+39 333 111 2222</a> •
+        <a href="mailto:info@casamoruzzo.it">info@casamoruzzo.it</a>
+      </div>
     </div>
   </div>
 </footer>
 
-<script src="assets/script.js"></script>
-<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
 </body>
 </html>
