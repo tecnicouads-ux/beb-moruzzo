@@ -3,87 +3,107 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Colazione – Casa dei Colli (Moruzzo)</title>
-  <meta name="description" content="Colazione a Casa dei Colli: semplice, buona, con opzioni su richiesta." />
-  <link rel="stylesheet" href="assets/style.css" />
+  <title>Colazione – Casa Moruzzo</title>
+  <meta name="description" content="Colazione a Casa Moruzzo: semplice, genuina, con opzioni su richiesta." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <div class="nav">
-    <a class="brand" href="index.html"><span class="logo"></span><span>Casa dei Colli • Moruzzo</span></a>
-    <nav class="navlinks">
+
+<div class="topbar">
+  <div class="inner">
+    <div class="lang">
+      <a class="active" href="index.html">IT</a>
+      <a href="index.html">EN</a>
+    </div>
+    <div class="phone"><a href="tel:+393331112222">+39 333 111 2222</a></div>
+    <a class="book" href="contatti.html">Prenota</a>
+  </div>
+</div>
+
+<header class="header">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      Casa Moruzzo
+      <small>B&B • Moruzzo (UD)</small>
+    </a>
+    <nav class="nav">
       <a data-nav href="index.html">Home</a>
       <a data-nav href="camere.html">Camere</a>
       <a data-nav href="colazione.html">Colazione</a>
       <a data-nav href="dintorni.html">Dintorni</a>
       <a data-nav href="contatti.html">Contatti</a>
     </nav>
-    <div class="cta">
-      <a class="btn" href="tel:+393331112222">Chiama</a>
-      <a class="btn primary" href="contatti.html">Prenota</a>
-    </div>
   </div>
 </header>
 
-<main class="wrap">
-  <section class="hero">
-    <div class="heroCard">
-      <div class="heroMedia">
-        <span class="badge">Colazione inclusa</span>
-        <img alt="Colazione" src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1800&q=70" />
+<section class="hero" style="min-height:55vh">
+  <img class="bg" alt="Colazione" src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=2400&q=80">
+  <div class="content">
+    <div class="upper">Colazione</div>
+    <div class="hr"></div>
+    <h1>Buona, semplice,<br>genuina.</h1>
+    <p>Un inizio di giornata senza stress. Se hai esigenze alimentari, ce lo dici prima.</p>
+    <div class="actions">
+      <a class="btn primary" href="contatti.html">Avvisa esigenze</a>
+      <a class="btn" href="camere.html">Vedi camere</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="title">
+      <div class="upper">Ogni mattina</div>
+      <div class="hr"></div>
+      <h2>Colazione inclusa</h2>
+      <p>Orario indicativo 7:30–10:00. Su richiesta possiamo adattare.</p>
+    </div>
+
+    <div class="sep"></div>
+
+    <div class="split">
+      <div class="cardImg">
+        <img alt="Caffè e dolce" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1800&q=80">
       </div>
-      <div class="heroBody">
-        <div class="kicker">Inizia bene la giornata</div>
-        <h1>Colazione semplice.<br>Buona davvero.</h1>
-        <p class="lead">
-          Caffè, tè, succhi, pane e confetture, qualcosa di dolce.
-          Se preferisci salato o hai intolleranze, ci organizziamo.
+      <div class="copy">
+        <h3>Cosa trovi (esempio)</h3>
+        <p>
+          Caffè e bevande calde, pane e confetture, yogurt/frutta quando disponibili,
+          qualcosa di dolce. Possibilità di opzioni senza lattosio / senza glutine su richiesta.
         </p>
-        <div class="heroActions">
-          <a class="btn primary" href="contatti.html">Avvisa esigenze alimentari</a>
-          <a class="btn" href="camere.html">Vedi camere</a>
+        <div class="miniActions">
+          <a class="btn dark" href="contatti.html">Chiedi dettagli</a>
+          <a class="btn ghost" href="dintorni.html">Scopri dintorni</a>
         </div>
       </div>
     </div>
-
-    <aside class="sideCard">
-      <h3>Orari</h3>
-      <div class="pills">
-        <span class="pill">07:30 – 10:00</span>
-        <span class="pill">Su richiesta</span>
-      </div>
-      <small>
-        Qui poi inserisci: “colazione in sala / in terrazza / self service”, ecc.
-      </small>
-    </aside>
-  </section>
-
-  <div class="sectionTitle">
-    <h2>Cosa trovi</h2>
-    <p>Lista esempio (personalizzabile).</p>
   </div>
+</section>
 
-  <section class="grid">
-    <article class="card">
-      <div class="media"><img alt="Dolci" src="https://images.unsplash.com/photo-1541976076758-347942db1975?auto=format&fit=crop&w=1400&q=70" /></div>
-      <div class="body"><h3>Dolce</h3><p>Croissant, biscotti, torte (quando disponibili).</p></div>
-    </article>
-    <article class="card">
-      <div class="media"><img alt="Caffè" src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1400&q=70" /></div>
-      <div class="body"><h3>Caffè & bevande</h3><p>Espresso, cappuccino, tè, tisane, succhi.</p></div>
-    </article>
-    <article class="card">
-      <div class="media"><img alt="Pane e marmellate" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1400&q=70" /></div>
-      <div class="body"><h3>Pane & confetture</h3><p>Pane, burro, confetture, miele.</p></div>
-    </article>
-  </section>
-</main>
+<section class="section">
+  <div class="container center">
+    <div class="upper">Prenotazione diretta</div>
+    <div class="hr"></div>
+    <h2 style="margin:0">Prenota al miglior prezzo</h2>
+    <p class="muted" style="max-width:720px;margin:10px auto 0">
+      Contattaci direttamente: risposta rapida via WhatsApp o email.
+    </p>
+    <div class="actions" style="margin-top:18px">
+      <a class="btn dark" href="contatti.html">Contatti</a>
+      <a class="btn ghost" href="tel:+393331112222">Chiama</a>
+    </div>
+  </div>
+</section>
 
-<footer class="wrap footer">
-  <small>© <span id="y"></span> Casa dei Colli – Moruzzo • <a href="contatti.html">Contatti</a></small>
+<footer class="footer">
+  <div class="container">
+    <div class="inner">
+      <div><strong>Casa Moruzzo</strong><br>Moruzzo (UD) • Friuli Venezia Giulia</div>
+      <div><a href="tel:+393331112222">+39 333 111 2222</a> • <a href="mailto:info@casamoruzzo.it">info@casamoruzzo.it</a></div>
+    </div>
+  </div>
 </footer>
 
-<script src="assets/script.js"></script>
-<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
 </body>
 </html>
