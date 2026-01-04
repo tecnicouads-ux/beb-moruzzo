@@ -3,128 +3,97 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contatti & Prenota – Casa dei Colli (Moruzzo)</title>
-  <meta name="description" content="Contatta Casa dei Colli a Moruzzo: chiedi disponibilità via WhatsApp o email." />
-  <link rel="stylesheet" href="assets/style.css" />
+  <title>Contatti – Casa Moruzzo</title>
+  <meta name="description" content="Contatta Casa Moruzzo a Moruzzo: WhatsApp, telefono o email per disponibilità e prezzi." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <div class="nav">
-    <a class="brand" href="index.html"><span class="logo"></span><span>Casa dei Colli • Moruzzo</span></a>
-    <nav class="navlinks">
+
+<div class="topbar">
+  <div class="inner">
+    <div class="lang">
+      <a class="active" href="index.html">IT</a>
+      <a href="index.html">EN</a>
+    </div>
+    <div class="phone"><a href="tel:+393331112222">+39 333 111 2222</a></div>
+    <a class="book" href="contatti.html">Prenota</a>
+  </div>
+</div>
+
+<header class="header">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      Casa Moruzzo
+      <small>B&B • Moruzzo (UD)</small>
+    </a>
+    <nav class="nav">
       <a data-nav href="index.html">Home</a>
       <a data-nav href="camere.html">Camere</a>
       <a data-nav href="colazione.html">Colazione</a>
       <a data-nav href="dintorni.html">Dintorni</a>
       <a data-nav href="contatti.html">Contatti</a>
     </nav>
-    <div class="cta">
-      <a class="btn" href="tel:+393331112222">Chiama</a>
-      <a class="btn primary" id="whatsappBtn" href="https://wa.me/393331112222" target="_blank" rel="noopener">WhatsApp</a>
-    </div>
   </div>
 </header>
 
-<main class="wrap">
-  <section class="hero">
-    <div class="heroCard">
-      <div class="heroMedia">
-        <span class="badge">Prenotazione diretta</span>
-        <img alt="Interno casa" src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=1800&q=70" />
-      </div>
-      <div class="heroBody">
-        <div class="kicker">Contatti</div>
-        <h1>Chiedi disponibilità</h1>
-        <p class="lead">
-          Compila il form: ti rispondiamo con disponibilità e prezzo.  
-          Se preferisci, scrivici su WhatsApp (il messaggio si compila da solo).
-        </p>
+<section class="hero" style="min-height:55vh">
+  <img class="bg" alt="Contatti" src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=2400&q=80">
+  <div class="content">
+    <div class="upper">Contatti</div>
+    <div class="hr"></div>
+    <h1>Scrivici per disponibilità<br>e prezzi.</h1>
+    <p>Risposta rapida via WhatsApp. In alternativa: telefono o email.</p>
+    <div class="actions">
+      <a class="btn primary" href="https://wa.me/393331112222?text=Ciao%21%20Vorrei%20info%20disponibilit%C3%A0%20per%20un%20soggiorno%20a%20Moruzzo." target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn" href="tel:+393331112222">Chiama</a>
+    </div>
+  </div>
+</section>
 
-        <form id="availabilityForm" class="form">
-          <div class="formRow">
-            <div>
-              <label>Nome</label>
-              <input name="name" placeholder="Es. Marco Rossi" required />
-            </div>
-            <div>
-              <label>Numero ospiti</label>
-              <select name="guests" required>
-                <option value="">Seleziona</option>
-                <option>1</option><option>2</option><option>3</option><option>4</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="formRow">
-            <div>
-              <label>Check-in</label>
-              <input type="date" name="checkin" required />
-            </div>
-            <div>
-              <label>Check-out</label>
-              <input type="date" name="checkout" required />
-            </div>
-          </div>
-
-          <div>
-            <label>Note (orario, esigenze, ecc.)</label>
-            <textarea name="notes" placeholder="Es. Arrivo tardi, intolleranze, letto aggiuntivo..."></textarea>
-          </div>
-
-          <div class="heroActions">
-            <a class="btn primary" id="whatsappBtn2" href="https://wa.me/393331112222" target="_blank" rel="noopener">Invia su WhatsApp</a>
-
-            <!-- EMAIL (mailto) -->
-            <a class="btn" id="mailtoBtn" href="mailto:info@casadeicolli-moruzzo.it?subject=Richiesta%20disponibilit%C3%A0%20B%26B%20Moruzzo&body=Ciao%2C%20vorrei%20info%20su%20disponibilit%C3%A0.%0A%0ANome%3A%20%0AOspiti%3A%20%0ADal%3A%20%0AAl%3A%20%0ANote%3A%20">Invia via Email</a>
-          </div>
-
-          <small>
-            Telefono: <a href="tel:+393331112222">+39 333 111 2222</a> • Email: <a href="mailto:info@casadeicolli-moruzzo.it">info@casadeicolli-moruzzo.it</a>
-          </small>
-        </form>
-      </div>
+<section class="section">
+  <div class="container">
+    <div class="title">
+      <div class="upper">Richiesta</div>
+      <div class="hr"></div>
+      <h2>Chiedi disponibilità</h2>
+      <p>Compila e invia via email (si apre il tuo client). Per un form “vero” si può fare dopo.</p>
     </div>
 
-    <aside class="sideCard">
-      <h3>Dove siamo</h3>
-      <p style="margin:0;color:var(--muted)">
-        Moruzzo (UD). Inserisci qui l’indirizzo preciso e una mappa Google.
-      </p>
-      <div class="hr"></div>
-      <small class="notice">
-        Suggerimento: appena hai l’indirizzo reale, metti un bottone “Apri su Google Maps”.
-      </small>
-    </aside>
-  </section>
-</main>
+    <div class="sep"></div>
 
-<footer class="wrap footer">
-  <small>© <span id="y"></span> Casa dei Colli – Moruzzo</small>
+    <div class="split">
+      <div class="cardImg">
+        <img alt="Camera" src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1800&q=80">
+      </div>
+      <div class="copy">
+        <h3>Contatti diretti</h3>
+        <p>
+          Telefono: <a href="tel:+393331112222"><strong>+39 333 111 2222</strong></a><br>
+          Email: <a href="mailto:info@casamoruzzo.it"><strong>info@casamoruzzo.it</strong></a>
+        </p>
+
+        <div class="miniActions">
+          <a class="btn dark" href="mailto:info@casamoruzzo.it?subject=Richiesta%20disponibilit%C3%A0%20Casa%20Moruzzo&body=Ciao%2C%0A%0AVorrei%20info%20per%3A%0A-%20Numero%20ospiti%3A%20%0A-%20Check-in%3A%20%0A-%20Check-out%3A%20%0A-%20Note%3A%20%0A%0AGrazie%21">Invia email</a>
+          <a class="btn ghost" href="camere.html">Vedi camere</a>
+        </div>
+
+        <p class="muted" style="margin-top:14px">
+          (Quando vuoi) aggiungiamo mappa Google, indirizzo preciso e un form che invia su WhatsApp.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="inner">
+      <div><strong>Casa Moruzzo</strong><br>Moruzzo (UD) • Friuli Venezia Giulia</div>
+      <div><a href="tel:+393331112222">+39 333 111 2222</a> • <a href="mailto:info@casamoruzzo.it">info@casamoruzzo.it</a></div>
+    </div>
+  </div>
 </footer>
 
-<script src="assets/script.js"></script>
-<script>
-  document.getElementById("y").textContent = new Date().getFullYear();
-
-  // Duplica href WA del pulsante alto anche sul pulsante nel form
-  const waTop = document.getElementById("whatsappBtn");
-  const waForm = document.getElementById("whatsappBtn2");
-  if(waTop && waForm) waForm.href = waTop.href;
-
-  // (Facoltativo) aggiorna mailto con i campi inseriti
-  const form = document.getElementById("availabilityForm");
-  const mailto = document.getElementById("mailtoBtn");
-  if(form && mailto){
-    form.addEventListener("input", ()=>{
-      const name = form.name.value || "";
-      const guests = form.guests.value || "";
-      const ci = form.checkin.value || "";
-      const co = form.checkout.value || "";
-      const notes = form.notes.value || "";
-      const body = `Ciao, vorrei info su disponibilità.\n\nNome: ${name}\nOspiti: ${guests}\nDal: ${ci}\nAl: ${co}\nNote: ${notes}\n\nGrazie!`;
-      mailto.href = "mailto:info@casadeicolli-moruzzo.it?subject=" + encodeURIComponent("Richiesta disponibilità B&B Moruzzo") + "&body=" + encodeURIComponent(body);
-    });
-  }
-</script>
+<script src="script.js"></script>
 </body>
 </html>
