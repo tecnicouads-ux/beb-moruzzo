@@ -1,10 +1,11 @@
-// Evidenzia link attivo in base al pathname
 (function(){
   const path = (location.pathname.split("/").pop() || "index.html").toLowerCase();
   document.querySelectorAll("[data-nav]").forEach(a=>{
     const href = (a.getAttribute("href") || "").toLowerCase();
     if(href === path) a.classList.add("active");
   });
+})();
+
 
   // Precompila il testo WhatsApp dal form (se presente)
   const form = document.querySelector("#availabilityForm");
